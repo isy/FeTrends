@@ -1,6 +1,6 @@
 # FeTrends
 
-![FeTrends](./assets/images/title.png))
+![FeTrends](./assets/images/title.png)
 
 ## Build Setup
 
