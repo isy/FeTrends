@@ -13,6 +13,5 @@ import AppHeader from "~/components/organisms/AppHeader.vue";
     AppHeader
   }
 })
-export default class extends Vue {
-}
+export default class extends Vue {}
 </script>
