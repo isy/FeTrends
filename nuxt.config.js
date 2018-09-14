@@ -34,7 +34,8 @@ module.exports = {
   ],
   modules: [
     // Doc: https://axios.nuxtjs.org/
-    "@nuxtjs/axios"
+    "@nuxtjs/axios",
+    "~/modules/typescript.js"
   ],
   axios: {}
 };

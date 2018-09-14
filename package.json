@@ -19,13 +19,16 @@
     "at-ui-style": "^1.5.1",
     "autoprefixer": "^9.1.2",
     "nuxt": "^1.0.0",
+    "nuxt-property-decorator": "^1.2.0",
     "postcss-import": "^12.0.0",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^3.0.0",
     "pug": "^2.0.3",
-    "pug-plain-loader": "^1.0.0"
+    "pug-plain-loader": "^1.0.0",
+    "vuex-class": "^0.3.1"
   },
   "devDependencies": {
+    "@types/node": "^10.9.4",
     "babel-eslint": "^8.2.6",
     "eslint": "^5.4.0",
     "eslint-config-prettier": "^3.0.1",
@@ -33,6 +36,8 @@
     "eslint-loader": "^2.1.0",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-vue": "^4.7.1",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "ts-loader": "3.5.0",
+    "typescript": "^3.0.3"
   }
 }

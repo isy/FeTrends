@@ -19,7 +19,8 @@ module.exports = {
   plugins: ["vue"],
   // add your custom rules here
   rules: {
-    semi: [2, "never"],
-    "prettier/prettier": ["error", { semi: false }]
+    semi: ["error", "always"],
+    "no-console": "off",
+    "prettier/prettier": ["error", { semi: true }]
   }
 };

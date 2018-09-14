@@ -9,6 +9,7 @@
 
 <script>
 import { Card } from "at-ui";
+
 export default {
   components: {
     "at-card": Card

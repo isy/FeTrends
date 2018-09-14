@@ -4,12 +4,15 @@
     nuxt
 </template>
 
-<script>
-import AppHeader from "~/components/organisms/AppHeader";
+<script lang="ts">
+import { Vue, Component } from "nuxt-property-decorator";
+import AppHeader from "~/components/organisms/AppHeader.vue";
 
-export default {
+@Component({
   components: {
     AppHeader
   }
-};
+})
+export default class extends Vue {
+}
 </script>
